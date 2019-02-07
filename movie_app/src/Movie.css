@@ -1,0 +1,16 @@
+.Movie {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.Movie .Movie__Columns {
+  width: 100%;
+}
+.Movie .Movie__Poster {
+  max-width: 100%;
+}
+
+.Movie .Movie__Synopsis {
+  text-overflow: ellipsis;
+}
